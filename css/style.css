@@ -19,6 +19,44 @@ body {
   background: #fff;
 }
 
+.countdown-card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      padding: 40px 60px;
+      text-align: center;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .countdown-box {
+      background: #ff4d6d;
+      color: white;
+      border-radius: 12px;
+      padding: 20px;
+      min-width: 80px;
+      box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .countdown-box:hover {
+      transform: scale(1.05);
+    }
+
+    .countdown-number {
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+
+    .countdown-label {
+      margin-top: 5px;
+      font-size: 1em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
 #page {
   position: relative;
   overflow-x: hidden;

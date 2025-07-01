@@ -1,143 +1,279 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>R. Praveen Sriram 💍 S. Shanmathi Wedding Invitation</title>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Open Sans', sans-serif;
-      background: linear-gradient(to bottom right, #ffe4e1, #fceabb);
-      overflow-x: hidden;
-    }
-    header {
-      text-align: center;
-      padding: 100px 20px;
-      background: url('https://www.transparenttextures.com/patterns/flower-doodles.png'), #fff0f5;
-    }
-    header h1 {
-      font-family: 'Great Vibes', cursive;
-      font-size: 3rem;
-      color: #b30059;
-      animation: fadeIn 2s ease-in-out;
-    }
-    header p {
-      font-size: 1.5rem;
-      color: #99004d;
-    }
-    section {
-      padding: 50px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      font-family: 'Great Vibes', cursive;
-      font-size: 2.5rem;
-      color: #cc0066;
-      text-align: center;
-    }
-    .story, .event-details, .gallery, .rsvp, .countdown {
-      background: #fff;
-      border-radius: 12px;
-      padding: 20px;
-      margin: 20px 0;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      animation: fadeIn 1.5s ease;
-    }
-    .gallery img {
-      width: 100%;
-      border-radius: 8px;
-      margin-top: 10px;
-    }
-    form input, form textarea {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-    }
-    .music-toggle {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #b30059;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 50px;
-      cursor: pointer;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(30px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>R. Praveen Sriram 💍 S. Shanmathi</h1>
-    <p>Are getting married on August 27, 2025</p>
-    <p>At Anandha Garden, Tenkasi Road, Rajapalayam</p>
-  </header>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Wedding &mdash; - Invitation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
 
-  <section class="story">
-    <h2>Our Story</h2>
-    <p>Once upon a time in the heart of Tamil Nadu, two beautiful souls met and created a love story filled with joy, laughter, and dreams. Join us as we step into our forever together.</p>
-    <img src="https://via.placeholder.com/800x400?text=Our+Story+Photo" alt="Our Story">
-  </section>
 
-  <section class="event-details">
-    <h2>Event Details</h2>
-    <p><strong>Date:</strong> August 27, 2025 (Wednesday)</p>
-    <p><strong>Venue:</strong> Anandha Garden, Tenkasi Road, Rajapalayam</p>
-    <iframe src="https://www.google.com/maps?q=Anandha+Garden,+Tenkasi+Road,+Rajapalayam&output=embed" width="100%" height="300" frameborder="0" style="border:0;"></iframe>
-  </section>
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-  <section class="gallery">
-    <h2>Gallery</h2>
-    <img src="https://via.placeholder.com/800x400?text=Pre-Wedding+Shoot" alt="Gallery">
-    <img src="https://via.placeholder.com/800x400?text=Engagement+Highlight" alt="Gallery">
-  </section>
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-  <section class="rsvp">
-    <h2>RSVP</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="number" placeholder="No. of Guests" required>
-      <textarea placeholder="Message"></textarea>
-      <input type="submit" value="Send RSVP">
-    </form>
-  </section>
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-  <section class="countdown">
-    <h2>Countdown to Our Big Day</h2>
-    <div id="timer" style="text-align:center; font-size: 2rem; color: #cc0066;"></div>
-  </section>
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-  <div class="music-toggle" onclick="toggleMusic()">🎵 Music</div>
-  <audio id="bg-music" loop>
-    <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mpeg">
-  </audio>
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-  <script>
-    const weddingDate = new Date("2025-08-27T00:00:00").getTime();
-    const timer = document.getElementById("timer");
-    setInterval(() => {
-      const now = new Date().getTime();
-      const distance = weddingDate - now;
-      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-      timer.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
-    }, 1000);
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-    function toggleMusic() {
-      const music = document.getElementById("bg-music");
-      if (music.paused) music.play();
-      else music.pause();
-    }
-  </script>
-</body>
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2">
+					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
+				</div>
+				<div class="col-xs-10 text-right menu-1">
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</nav>
+
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>S. Shanmathi &amp; &nbsp; &nbsp; &nbsp; R. Praveen Sriram </h1>
+							<h2>We Are Getting Married</h2>
+							
+							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-couple">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<h2>Hello!</h2>
+					<h3>Aug 27th Wednesday, 2025.</h3>
+					<h3>Anandha Garden, Tenkasi Road, Rajapalayam.</h3>
+					<p>We invited you to celebrate our wedding</p>
+				</div>
+			</div>
+			<div class="couple-wrap animate-box">
+				<div class="couple-half">
+					<div class="groom">
+						<img src="images/man.png" alt="groom" class="img-responsive">
+					</div>
+					<div class="desc-groom">
+						<h3>R. Praveen Sriram</h3>
+						<p>என்னுடைய சிறு இதயத்தில் உன் மீது பெரிய காதல் இருப்பதற்கு காரணம் உன் அன்பு..!</p>
+					</div>
+				</div>
+				<p class="heart text-center"><i class="icon-heart2"></i></p>
+				<div class="couple-half">
+					<div class="bride">
+						<img src="images/girl.png" alt="groom" class="img-responsive">
+					</div>
+					<div class="desc-bride">
+						<h3>S. Shanmathi</h3>
+						<p>உனக்காக வாழ ஆரம்பித்து விட்டேன் என் வாழ்க்கையே நீயென்று உணர்ந்து விட்டதால்..!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Our Special Events</span>
+					<h2>Wedding Events</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="display-t">
+					<div class="display-tc">
+						
+						<div class="col-md-5 col-md-offset-1">
+							
+							<div class=" text-center">
+								<div class="event-wrap animate-box">
+									<h3>Marriage </h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>9:00 AM</span>
+										<span>10:30 AM</span>
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>16 Monday</span>
+										<span>Sep, 2024</span>
+									</div>
+									<p>Place - Anandha Garden, Tenkasi Road, Rajapalayam.</p>
+									<p></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5 col-md-offset-1">
+							
+							<div class=" text-center">
+								<div class="event-wrap animate-box">
+									<h3>Reception </h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>Time</span>
+										
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>16 Monday</span>
+										<span>Sep, 2024</span>
+									</div>
+									<p>Place - Anandha Garden, Tenkasi Road, Rajapalayam.</p>
+									<p></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-couple-story">
+		<div class="container"  style="text-align: center;">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15735.654144598624!2d77.7458625!3d9.6027135!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06d757e7d364e1%3A0xc0a4127d1fb442cd!2sVazhi%20vidu%20Murugan%20Temple!5e0!3m2!1sen!2sin!4v1724732716282!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+
+	
+	
+
+	
+	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>அனைவரும் வருக !!!</h2>
+					<p>தங்கள் வரவை நாடும் - சுற்றமும் நட்பும்</p>
+					<p>வாழ்த்துக்களுடன் உங்கள் வெல்கம் கார்ட்ஸ், இராஜபாளையம்</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; Created by DSS Studio & Design  </small>
+
+						<small> For Web design / Poster Creation <a href="https://www.beycanrobotics.com/ "> Beycan</a></small> 
+						</p>
+					
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+
+	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+	<script src="js/simplyCountdown.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	<script>
+    var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
+
+    // default example
+    simplyCountdown('.simply-countdown-one', {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate()
+    });
+
+    //jQuery example
+    $('#simply-countdown-losange').simplyCountdown({
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: false
+    });
+</script>
+
+	</body>
 </html>
+
